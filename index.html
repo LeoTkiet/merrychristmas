@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Chat Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="startButton">Bắt đầu</button>
+
+    <div id="videoContainer">
+        <video id="video" src="video.mp4" autoplay></video>
+    </div>
+
+    <button id="chatButton" style="display: none;">Nhấn vào đây nè</button>
+
+    <div id="chatContainer">
+        <p>Tin nhắn từ bạn:</p>
+        <textarea id="chatInput" placeholder="Nhập tin nhắn..."></textarea>
+        <button id="sendButton">Gửi</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
